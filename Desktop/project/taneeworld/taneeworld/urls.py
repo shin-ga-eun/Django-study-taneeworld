@@ -15,19 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework import routers
-from server.views import MemberViewSet, BoardViewSet, CommentViewSet
 
-# DRF 사용법 4. urls.py 작성 -> viewset을 router에 연결.
-
-
-router = routers.DefaultRouter()
-router.register('member', MemberViewSet)
-router.register('board', BoardViewSet)
-router.register('comment', CommentViewSet)
-
+# DRF 사용법 4. urls.py 작성
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
+    path('auth/', include('rest_framework.urls', namespace='rest-framework')),
+    path('taneeworld/', include('server.urls')),
+
 ]

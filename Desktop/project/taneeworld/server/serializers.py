@@ -7,10 +7,12 @@ from .models import Member, Board, Comment
 class MemberSerializer(serializers.ModelSerializer):
     class Meta:
         model = Member # 모델 설정
-        fields = ('mid','id','pw','mname','isFamily') # 필드 설정
+        fields = ('mid','id','pw','mname','isFamily',) # 필드 설정
 
 
 class BoardSerializer(serializers.ModelSerializer):
+    author = serializers.ReadOnlyField(source='author.mname')
+
     class Meta:
         model = Board # 모델 설정
         fields = ('bid','title','context','created_time','published_time','author') # 필드 설정

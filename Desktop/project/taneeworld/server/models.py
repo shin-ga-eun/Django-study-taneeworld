@@ -25,7 +25,7 @@ class Board(models.Model):
     created_time = models.DateTimeField(default=timezone.now) #작성시간
     published_time = models.DateTimeField(blank=True, null=True) #작성시간
     author = models.ForeignKey(Member, on_delete=models.CASCADE) # Member 테이블 FK /작성
-    #댓글 리스
+    #댓글 리스트
 
 
     def publish(self):

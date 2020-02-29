@@ -63,33 +63,44 @@
       <screen x="0" y="23" width="1680" height="957" />
     </state>
     <state x="614" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.957@0.23.1680.957" timestamp="1582474733462" />
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom" timestamp="1582729461721">
+    <state width="1659" height="285" key="GridCell.Tab.0.bottom" timestamp="1582971501422">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1582729461721" />
-    <state width="1659" height="155" key="GridCell.Tab.0.center" timestamp="1582729461720">
+    <state width="1659" height="285" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1582971501422" />
+    <state width="1659" height="285" key="GridCell.Tab.0.center" timestamp="1582971501421">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1582729461720" />
-    <state width="1659" height="155" key="GridCell.Tab.0.left" timestamp="1582729461719">
+    <state width="1659" height="285" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1582971501421" />
+    <state width="1659" height="285" key="GridCell.Tab.0.left" timestamp="1582971501421">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1582729461719" />
-    <state width="1659" height="155" key="GridCell.Tab.0.right" timestamp="1582729461720">
+    <state width="1659" height="285" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1582971501421" />
+    <state width="1659" height="285" key="GridCell.Tab.0.right" timestamp="1582971501422">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state width="1659" height="155" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1582729461720" />
-    <state x="341" y="140" key="SettingsEditor" timestamp="1582471304852">
+    <state width="1659" height="285" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1582971501422" />
+    <state x="341" y="140" key="SettingsEditor" timestamp="1582798003062">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state x="341" y="140" key="SettingsEditor/0.23.1680.957@0.23.1680.957" timestamp="1582471304852" />
-    <state x="517" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1582716024008">
+    <state x="341" y="140" key="SettingsEditor/0.23.1680.957@0.23.1680.957" timestamp="1582798003062" />
+    <state x="517" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1582901801993">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state x="517" y="334" key="com.intellij.ide.util.TipDialog/0.23.1680.957@0.23.1680.957" timestamp="1582716024008" />
+    <state x="517" y="334" key="com.intellij.ide.util.TipDialog/0.23.1680.957@0.23.1680.957" timestamp="1582901801993" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1582728538401">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.957@0.23.1680.957" timestamp="1582728538401" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/serializers.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
