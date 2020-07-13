@@ -3,7 +3,7 @@
 
 ## About
 
-django-rest-framework를 이용한 RestAPI를 구현
+django-rest-framework를 이용한 REST API를 구현
 
 
 ## Django 공부기록 
