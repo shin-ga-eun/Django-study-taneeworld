@@ -6,7 +6,7 @@
 django-rest-framework를 이용한 REST API를 구현
 
 
-## Django 공부기록 
+## Django 공부기록 by shin-ga-eun
 
 📗 장고 기초개념 정리 >> https://blog.naver.com/sge7102/221832331600
 
